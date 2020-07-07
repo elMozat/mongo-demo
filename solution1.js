@@ -53,8 +53,7 @@ run();
 async function updateCourse(id) {
     const result = await Course.updateMany({ _id: id }, {
         $set: {
-            author: 'Mosh',
-            isPublished: false
+            author: 'Mosese'
         }
     });
     console.log(result);
